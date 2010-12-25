@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 3
 
 Summary:    An extremely minimal HTTP client
 License:    GPL+ or Artistic
@@ -16,6 +16,7 @@ BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(HTTP::Date)
 BuildRequires: perl(HTTP::Request)
 BuildRequires: perl(HTTP::Response)
+BuildRequires: perl(Net::IP)
 BuildRequires: perl(POE)
 BuildRequires: perl(POE::Component::Client::DNS)
 BuildRequires: perl(POE::Filter::HTTP::Parser)
