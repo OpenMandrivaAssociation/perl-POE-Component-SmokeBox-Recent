@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    An extremely minimal HTTP client
 License:    GPL+ or Artistic
@@ -41,6 +41,7 @@ frameworks.
 %setup -q -n %{upstream_name}-%{upstream_version}
 
 %build
+export PERL_MM_USE_DEFAULT=1
 %{__perl} Makefile.PL INSTALLDIRS=vendor
 
 %make
