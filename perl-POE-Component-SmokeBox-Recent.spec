@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 3
 
 Summary:    An extremely minimal HTTP client
 License:    GPL+ or Artistic
@@ -24,6 +24,8 @@ BuildRequires: perl(Test::More)
 BuildRequires: perl(Test::POE::Client::TCP)
 BuildRequires: perl(Test::POE::Server::TCP)
 BuildRequires: perl(URI)
+Requires: perl(POE::Component::Client::DNS)
+Requires: perl(Test::POE::Client::TCP)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
