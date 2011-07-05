@@ -1,9 +1,9 @@
 %define upstream_name    POE-Component-SmokeBox-Recent
-%define upstream_version 1.30
+%define upstream_version 1.32
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 4
+Release:    %mkrel 1
 
 Summary:    An extremely minimal HTTP client
 License:    GPL+ or Artistic
