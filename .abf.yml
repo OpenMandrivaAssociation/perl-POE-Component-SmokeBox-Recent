@@ -1,2 +1,4 @@
+removed_sources:
+  POE-Component-SmokeBox-Recent-1.32.tar.gz: 474cffec82bb1e587193a295247829bf4576fed7
 sources:
-  "POE-Component-SmokeBox-Recent-1.32.tar.gz": 474cffec82bb1e587193a295247829bf4576fed7
+  POE-Component-SmokeBox-Recent-1.44.tar.gz: f674e5d3e243f64747e46df39d8ac2ac76f4dd7b
