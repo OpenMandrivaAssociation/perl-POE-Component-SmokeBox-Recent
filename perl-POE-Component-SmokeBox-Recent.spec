@@ -1,15 +1,15 @@
 %define upstream_name    POE-Component-SmokeBox-Recent
-%define upstream_version 1.32
+%define upstream_version 1.54
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	An extremely minimal HTTP client
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/POE/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/bingos/poe-component-smokebox-recent
+Source0:	https://cpan.metacpan.org/authors/id/B/BI/BINGOS/POE-Component-SmokeBox-Recent-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
